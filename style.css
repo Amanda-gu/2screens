@@ -1,0 +1,871 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/*moblie*/
+
+
+
+@media (max-width: 600px) {
+ 
+div.images{
+	display: none;
+}
+
+
+body {
+	
+	background-color:#0000c3 ;
+}
+
+
+div.bluem{
+color: white;
+margin: 15px;
+font-family: courier, sans-serif;
+
+}
+
+#cards {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#card {
+	margin: 1px;
+
+
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	
+	width: 340px;
+	height: 100px;
+	
+	text-align: center;
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 12px;
+	
+
+
+}
+
+.c1 {
+	text-align: center;
+	 
+}
+
+
+.c01 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.c02 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.c03 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.c04 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.c05 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.c06 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.c07 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.c08 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.c09 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.c010 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.c011 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.c012 {
+	margin:5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.front1{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front2{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front3{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front4{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front5{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front6{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front7{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front8{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front9{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front10{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front11{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+.front12{
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+#card:hover {
+	border-style: dashed;
+	border-color: white;
+	border-width: 1px;
+}
+
+.back1 {
+	text-align: center;
+	color:white;
+	font-family: Akzidenz-Grotest std, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	line-height: 100px;
+	/*display: none;*/
+}
+
+}
+
+
+
+
+/*desktop*/
+
+@media(min-width: 600px) {
+    
+body { 
+    animation: fade ease 5.5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fade { 
+    0% { 
+        background-color: #0000c3;
+    } 
+    100% { 
+        background-color: #ffffff; 
+     } 
+} 
+
+@keyframes fading { 
+    0% { 
+        opacity: 0;
+    } 
+    100% { 
+     opacity: 1;
+     } 
+} 
+
+div.images{
+	animation-name: fading;
+	animation-duration: 5.5s;
+
+}
+
+div.collections {
+	display: none;
+}
+
+
+body{
+	background-color: #ffffff;
+}
+
+
+}
+div.blue{
+	font-family: courier, sans-serif;
+	margin: 20px;
+	color: #0000c3;
+
+}
+
+div#post {
+
+		height: 450px;
+		width: 700px;
+		background-color: #f5f3ef;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #c8c4bb; 
+		border-radius: 2%;
+		box-shadow: 3px 4px #c8c4bb;
+		
+}
+
+
+
+div.text {
+
+	margin:25px;
+	font-family: Akzidenz-Grotesk std, sans-serif;
+	font-size: 20px; 
+}
+
+
+textarea{ 
+	color: grey;
+	width: 220px;
+	height: 295px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	background-color:  #f5f3ef;
+	font-family: courier, sans-serif;
+	font-size: 15px;
+	letter-spacing: -1px;
+	border-color: #f5f3ef;
+
+}
+div.blinking{
+	position: absolute;
+	top: 78px;
+	left: 28px;
+    width: 1px;
+    height: 15px;
+    background-color: black;
+
+  animation: blink 0.8s linear infinite;
+
+}
+
+
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+/* blinking cursor credit:
+https://codepen.io/alandunning/pen/RWRrEW*/
+
+div.info {
+	margin-left: 25px;
+	margin-bottom:20px;
+	font-family: Akzidenz-Grotesk std, sans-serif;
+	font-size: 20px;
+	text-transform: lowercase; 
+}
+
+
+
+div.one {
+	position: fixed;
+		top:13%;
+		left: 15%;
+
+		transition-duration: 1s;
+	transition-timing-function: linear;
+	z-index: 2000;
+}
+
+
+
+img.hair{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+@keyframes two{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:14.5%;
+		left: 16.5%;
+	}
+}
+
+
+
+
+div.two {
+	position: fixed;
+		top:14.5%;
+		left: 16.5%;
+	
+		transition-duration: 0.8s;
+		transition-timing-function: ease-in-out;
+		z-index: 1900;
+
+		animation-name: two;
+		animation-iteration-count: 1;
+		animation-duration: 0.5s;
+}
+
+div.two:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+img.lollipop{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+@keyframes three{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:16%;
+		left: 18%;
+	}
+}
+
+div.three {
+	position: fixed;
+		top:16%;
+		left: 18%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1800;
+		animation-name: three;
+		animation-iteration-count: 1;
+		animation-duration: 1s;
+}
+
+div.three:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+img.aquarium{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+@keyframes four{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:17.5%;
+		left: 19.5%;
+	}
+}
+div.four {
+	position: fixed;
+		top:17.5%;
+		left: 19.5%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1700;
+
+	animation-name: four;
+		animation-iteration-count: 1;
+		animation-duration: 1.5s;
+}
+
+div.four:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+img.fashion{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+@keyframes five{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:19%;
+		left: 21%;
+	}
+}
+
+div.five {
+	position: fixed;
+		top:19%;
+		left: 21%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1600;
+
+	animation-name: five;
+		animation-iteration-count: 1;
+		animation-duration: 2s;
+}
+
+div.five:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+img.fish{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+@keyframes six{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:20.5%;
+		left: 22.5%;
+	}
+}
+div.six {
+	position: fixed;
+		top:20.5%;
+		left: 22.5%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1500;
+
+	animation-name: six;
+		animation-iteration-count: 1;
+		animation-duration: 2.5s;
+}
+
+div.six:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+img.guangzhou{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+@keyframes seven{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:22%;
+		left: 24%;
+	}
+}
+
+div.seven {
+	position: fixed;
+		top:22%;
+		left: 24%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1400;
+
+	animation-name: seven;
+		animation-iteration-count: 1;
+		animation-duration: 3s;
+}
+
+div.seven:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+img.guangzhouta{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+
+@keyframes eight{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+			top:23.5%;
+		left: 25.5%;
+	}
+}
+
+
+div.eight {
+	position: fixed;
+		top:23.5%;
+		left: 25.5%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1300;
+
+	animation-name: eight;
+		animation-iteration-count: 1;
+		animation-duration: 3.5s;
+}
+
+div.eight:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+img.museum{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+@keyframes nine{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:25%;
+		left: 27%;
+	}
+}
+
+
+div.nine {
+	position: fixed;
+		top:25%;
+		left: 27%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1200;
+
+	animation-name: nine;
+		animation-iteration-count: 1;
+		animation-duration: 4s;
+}
+
+div.nine:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+
+img.toy{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+
+
+
+@keyframes ten{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:26.5%;
+		left: 28.5%;
+	}
+}
+
+
+div.ten {
+	position: fixed;
+		top:26.5%;
+		left: 28.5%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1100;
+
+	animation-name: ten;
+		animation-iteration-count: 1;
+		animation-duration: 4.5s;
+}
+
+div.ten:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+
+img.egg{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+
+@keyframes eleven{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:28%;
+		left: 30%;
+	}
+}
+
+
+div.eleven {
+	position: fixed;
+		top:28%;
+		left: 30%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1000;
+	
+
+	animation-name: eleven;
+		animation-iteration-count: 1;
+		animation-duration: 5s;
+}
+
+div.eleven:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+
+img.drawing{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+
+
+
+
+
+@keyframes twelve{
+
+	0%{
+		position: fixed;
+		top:13%;
+		left: 15%;
+	}
+
+	100%{
+		position: fixed;
+		top:29.5%;
+		left: 31.5%;
+	}
+}
+
+div.twelve {
+	position: fixed;
+		top:29.5%;
+		left: 31.5%;
+		transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 900;
+
+
+	animation-name: twelve;
+		animation-iteration-count: 1;
+		animation-duration: 5.5s;
+}
+
+div.twelve:hover {
+	transform: rotate(1deg) translate(12%, 12%);
+	z-index: 2100;
+}
+
+
+img.tree{
+	position: absolute;
+	top:25px;
+	right:25px;
+}
+
+}	
+
+
+	
